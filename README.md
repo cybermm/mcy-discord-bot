@@ -2,7 +2,7 @@
 ​A bot created for usage on the Myanmar Cyber Youth discord chat server.
 
 ## Initial Requirements
-- Python `v3.0`
+- Python `v3.10`
 
 ## Installation
   ```sh
