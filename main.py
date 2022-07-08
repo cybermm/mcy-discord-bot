@@ -23,7 +23,7 @@ async def on_ready():
 
 
   # remove default help command
-  print("\n# logged in as {0.user}".format(bot)+"\n")
+  print(f"\n# logged in as {bot.user}\n")
 
 # remove the "command not found" error from the console
 @bot.event
