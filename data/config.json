@@ -1,4 +1,10 @@
 {
   "token": "data/token.txt",
-  "prefix": "!"
+  "prefix": "!",
+
+  "extensions": [
+    "extension.help"
+  ],
+  "disabled_extensions": [
+  ]
 }
