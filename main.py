@@ -25,6 +25,18 @@ async def on_ready():
   # remove default help command
   print("\n# logged in as {0.user}".format(bot)+"\n")
 
+# remove the "command not found" error from the console
+@bot.event
+async def on_command_error(ctx, error):
+  # error to skip
+  skip = [CommandNotFound, MissingRequiredArgument]
+
+  # return if error is to skip type
+  for type in skip:
+    if isinstance(error, type):
+      return
+
+  raise error
 
 # starting the bot
 bot.run(token)
