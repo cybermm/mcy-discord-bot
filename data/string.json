@@ -1,6 +1,27 @@
 {
   "status": "DM me with !akarit",
+
   "help": {
     "user_help":"displays all commands."
-  }
+  },
+
+  "commands":{
+    "no_perm":"You do not have the permission to do that.",
+    "not_sanitized":"Sorry, the characters you have entered are blacklisted.",
+    "context_dm_only":"Please send this command in DM.",
+    "context_public_only":"Please send this command in a public channel.",
+    "channel_not_allowed":"This command isn't allowed in this channel."
+  },
+
+  "banned": [
+    "/",
+    ";",
+    "-",
+    ">",
+    "<",
+    ":",
+    "`",
+    "\"",
+    "|"
+  ]
 }
