@@ -2,6 +2,38 @@
   "token": "data/token.txt",
   "prefix": "!",
 
+  "server": 993961974599782570,
+  "info": {
+    "name": "Myanmar Cyber Youth"
+  },
+  "roles": {
+    "president": 995286902011858966,
+    "vice_president": 995287250013265940,
+
+    "mcy_bot": 994837364314751017,
+    "mcy_staff": 995287515470778438,
+
+    "verified": 995289317746417736
+  },
+  "channels": {
+    "announcements": 993963182358003863,
+    "rules": 993965465099583601,
+
+    "intro": 994945294699593829,
+    "start_here": 995088802605441136,
+    "waiting_room": 994945327662641253,
+
+    "burglish": 995089645832507463,
+    "english": 995089420539662386,
+
+    "pull": 995700069263216762,
+    "push": 995702827609489529,
+    "branch": 995705406464741557
+  },
+  "url": {
+    "invite": "https://discord.gg/PyryRuJZba"
+  },
+
   "extensions": [
     "extension.help"
   ],
